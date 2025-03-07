@@ -7,6 +7,7 @@ h1 {
 }
 img {
   height: 600px;
+  margin-top: 30px;
 }
 flex-container {
   display: inline-block;
@@ -14,4 +15,7 @@ flex-container {
 h2 {
   background-color: darkorange;
   display: inline-block;
+}
+p {
+  font-size: larger;
 }
