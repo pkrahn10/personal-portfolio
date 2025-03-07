@@ -11,3 +11,7 @@ img {
 flex-container {
   display: inline-block;
 }
+h2 {
+  background-color: darkorange;
+  display: inline-block;
+}
