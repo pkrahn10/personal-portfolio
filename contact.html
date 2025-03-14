@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>My Personal Portfolio</title>
+  </head>
+  <body>
+    <style>
+        .flex-container {
+          display: flex; 
+          align-items: flex-end;
+          flex-direction: row;
+          background-color: lightgray;
+        }
+        .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 25px;
+    }
+      </style>
+      <body>
+        <h1 class="flex-container">Parker Krahn</h1>
+        <nav>
+        <div class="flex-container">
+            <div><a href="index.html">Home</a>
+        </div>
+        <div><a href="about.html">About</a>
+        </div>
+        <div><a href="portfolio.html">Portfolio</a>
+        </div>
+        <div><a href="contact.html">Contact</a></div>
+    </nav>
+    <br>
+    <h2 class="flex-container" style="background-color: darkorange;">Contact Me:</h2>
+    <form id="form">
+      <label for="fname">Full Name:</label>
+      <input type="text" name="fname" id="fname" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <label for="message">Message:</label>
+      <input type="text" name="message" id="message" />
+      <br>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
