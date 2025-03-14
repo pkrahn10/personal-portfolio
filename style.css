@@ -8,14 +8,37 @@ h1 {
 img {
   height: 600px;
   margin-top: 30px;
-}
-flex-container {
-  display: inline-block;
+  border-radius: 25%;
+  border: 15px solid darkorange;
+  display: flex;
+  justify-content: center;
 }
 h2 {
   background-color: darkorange;
   display: inline-block;
 }
 p {
-  font-size: larger;
+  font-size: x-large;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: x-large;
+}
+p:hover {
+  background-color: darkorange;
+}
+form :hover {
+  background-color: darkorange;
+}
+@media only screen and (max-width: 480px) {
+  img {
+    height: 200px !important;
+  }
 }

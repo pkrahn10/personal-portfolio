@@ -9,8 +9,10 @@
   </head>
   <style>
     .flex-container {
-      display: flex;
-      background-color: darkorange; 
+      display: flex; 
+      align-items: flex-end;
+      flex-direction: row;
+      background-color: lightgray;
     }
     .flex-container > div {
     margin: 10px;
@@ -19,7 +21,7 @@
 }
   </style>
   <body>
-    <h1>Parker Krahn</h1>
+    <h1 class="flex-container">Parker Krahn</h1>
     <nav>
     <div class="flex-container">
         <div><a href="index.html">Home</a>
@@ -28,12 +30,13 @@
     </div>
     <div><a href="portfolio.html">Portfolio</a>
     </div>
+    <div><a href="contact.html">Contact</a></div>
 </nav>
 <br>
-<h2>
+<h2 class="flex-container" style="background-color: darkorange;">
    Quality Assurance Inspector 
 </h2>
-<p style="font-size: larger;">
+<p style="font-size: x-large;">
     Currently I work as a Quality Inspector in Manufacturing. I am hoping to make a career change into software development and expand my knowledge in tech!
 </p>
 <img src="bengals game.jpg" alt="Me in front of Bengals Stadium">
